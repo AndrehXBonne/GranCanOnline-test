@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'system-ui';
+}
+
+.menu-container {
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px
+}
+
+.menu-container h1 {
+    color: aqua;
+}
+
+.menu-container nav {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-container nav a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.menu-container nav a:hover {
+    color: darkred;
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        flex-direction: column-reverse;
+    }
+
+    .menu-container nav {
+        flex-direction: row-reverse;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 428px) {
+    .menu-container {
+        flex-direction: column;
+    }
+
+    .menu-container nav {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.welcomecard-container h1 {
+    color: darkslategrey;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+
+}
+
+footer {
+    background-color: rgb(250, 219, 42);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+footer .social a {
+    color: darkslategray;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 40%;
+}
+
+@media (max-width: 768px) {
+    .social {
+        flex-direction: column-reverse;
+    }
+
+    .copy {
+        flex-direction: row-reverse;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 428px) {
+    .social {
+        flex-direction: column;
+    }
+
+    .social a {
+        padding: 5px;
+        border-radius: 40%;
+    }
+
+    .copy {
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+}
+
+hr {
+    border: none;
+    border-top: 3px solid orange;
+    width: 50%;
+    margin: 20px auto;
+}
