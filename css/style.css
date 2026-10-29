@@ -139,12 +139,12 @@ h2 {
 }
 
 .puppy {
-    
+
     display: flex;
     flex-direction: column;
-    width: 500px; 
+    width: 500px;
     height: auto;
-     margin: 0 auto;
+    margin: 0 auto;
 }
 
 
@@ -157,25 +157,26 @@ h2 {
     width: calc(20% - 10px);
     height: auto;
     border-radius: 5px;
-    
+
 }
 
 @media (max-width: 768px) {
     .g-photos {
         flex-direction: column-reverse;
-        width:400px; 
+        width: 400px;
         height: auto;
     }
 
-    
+
 }
 
 @media (max-width: 428px) {
     .g-photos {
         flex-direction: column;
-        width: 200px;; 
+        width: 200px;
+        ;
         height: auto;
     }
 
-   
+
 }
