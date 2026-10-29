@@ -6,6 +6,8 @@ Ademas de que pueden subir las fotos de sus mascotas para que las vean para que 
 
 Agradecimientos:
 Agradezco a mi madre que me dio la idea original y a ChronoTask - Landing Page en dribble para inspirarme para el diseño de mi web.
+https://dribbble.com/shots/25000009-ChronoTask-Landing-Page
+
 
 Autor:
 Andrew Guerra Montoya
