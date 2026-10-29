@@ -6,7 +6,9 @@ Ademas de que pueden subir las fotos de sus mascotas para que las vean para que 
 
 
 pdts: la zona de la galeria solo es un placeholder por ahora, no funciona del todo como me gustaria pero cambian.
+
 Agradecimientos:
+
 Agradezco a mi madre que me dio la idea original y a ChronoTask - Landing Page en dribble para inspirarme para el diseño de mi web.
 https://dribbble.com/shots/25000009-ChronoTask-Landing-Page
 
